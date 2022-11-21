@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 require 'faker'
 
-10.times do
+20.times do
   title = Faker::Movie.title
   overview = Faker::Movie.quote
   poster_url = 'https://www.nowtv.now.com/wp-content/uploads/2020/01/Spider-Man-No-Way-Home-Extended-Version-mobile.jpg'
